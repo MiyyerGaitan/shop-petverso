@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+    margin-bottom:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .footer-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer .footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .footer-links a:hover {
+  text-decoration: underline;
+}
